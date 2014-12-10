@@ -1,0 +1,111 @@
+{
+"ThemeToolVersion": "3.3.0.51",
+
+"ChartStyles" : {
+	"ChartGradients" : [
+        {
+        	"id" : "dailyBalance-start",
+        	"type" : "linear",
+        	"angle": 0,
+        	"stops" : {
+        		"0" : {
+        			"color": "#59954F"
+        		},
+        		"100" : {
+        			"color": "#59954F"
+        		}
+        	}
+        },
+        {
+        	"id" : "dailyBalance-end",
+        	"type" : "linear",
+        	"angle" : 0,
+        	"stops" : {
+        		"0" : {
+        			"color" : "#73C267"
+        		},
+        		"100" : {
+        			"color" : "#73C267"
+        		}
+        	}
+        },
+        {
+        	"id" : "cashFlow-1",
+        	"angle": 0,
+        	"type": "linear",
+        	"stops" : {
+        		"1": {
+        			"color": "#59954F"
+        		},
+        		"5": {
+        			"color": "#59954F"
+        		},
+        		"100": {
+        			"color": "#59954F"
+        		}
+        	}
+        },
+        {
+        	"id": "cashFlow-2",
+        	"type": "linear",
+        	"angle": 0,
+        	"stops": {
+        		"3": {
+        			"color": "#73C267"
+        		},
+        		"5": {
+        			"color" : "#73C267"
+        		},
+        		"100": {
+        			"color": "#73C267"
+        		}
+        	}
+        },
+        {
+        	"id": "creditBalance-1",
+        	"angle": 0,
+        	"type": "radial",
+        	"stops" : {
+        		"1": {
+        			"color" : "#59954F"
+        		},
+        		"100" : {
+        			"color" : "#59954F"
+        		}
+        	}
+        },
+        {
+        	"id": "creditBalance-2",
+        	"angle": 0,
+        	"type": "radial",
+        	"stops" : {
+        		"1" : {
+        			"color": "#73C267"
+        		},
+        		"100" : {
+        			"color": "#73C267"
+        		}
+        	}
+        }
+    ],
+    "CreditBalanceChart" : {
+    	"textColors" : [
+            "#59954F",
+            "#73C267"
+        ]
+    },
+    "CashFlowChart" : {
+    	"strokeColors" : [
+              "#59954F", 
+              "#73C267"
+        ],
+        "shadowColor" : ["#969696", "#969696"]
+    },
+    "DailyBalanceChart" : {
+    	"chartStyle" : {
+    		"stroke": "#73C267",
+    		"fill": "#59954F"
+    	}
+	}
+}
+}
