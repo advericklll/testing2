@@ -1,0 +1,223 @@
+{
+"ThemeToolVersion": "3.3.0.51",
+
+"BRAND_GRADIENT_LIGHT" : "#959CA1",
+"BRAND_GRADIENT_DARK" : "#73787C",
+
+"GLOBAL_NAV_HEADER_COLOR_LIGHT" : "#000000",
+"GLOBAL_NAV_HEADER_COLOR_DARK" : "#000000",
+"GLOBAL_NAV_BODY_COLOR_LIGHT" : "#000000",
+"GLOBAL_NAV_BODY_COLOR_DARK" : "#000000",
+
+"BACKGROUND_COLOR": "#3d3d45",
+
+"NAV_BAR_GRADIENT_COLOR_TOP": "#000000",
+"NAV_BAR_GRADIENT_COLOR_BOTTOM": "#000000",
+
+"DEFAULT_BUTTON_TEXT_COLOR": "#73787C",
+
+"SECONDARY_LINK_COLOR": "#E5E6E8",
+"SECONDARY_TEXT_COLOR": "#F2F2F2",
+"SUBHEAD_TEXT_COLOR": "#F2F2F2",
+
+"SELECTED_FIELD_COLOR" : "#E5E6E8",
+"DEFAULT_LINK_COLOR": "#959CA1",
+
+"FORM_SELECTED_OUTLINE": "#959CA1",
+
+"WHITE_TEXT": "#F2F2F2",
+"TileAccountTitleLabel": {
+	"color":"#FFFFFF"
+},
+"CalendarSelectedDayLabel": {
+	"color": "#FFFFFF"
+},
+"CALENDAR_SELECTED_CELL_COLOR" : "#73C267",
+
+"FullScreenLabel" : {
+	"color" : "#FFFFFF"
+},
+
+"TABLET_FOOTER_STYLE":{
+     "div": {
+        "color": "#F2F2F2"
+     },
+     "a" : {
+        "color": "#F2F2F2"
+     }
+},
+
+"CalendarTodayDayLabel": {
+        "color": "#73C267"
+},
+
+"CalendarTodayTextLabel": {
+        "color": "#73C267"
+},
+"CalendarSelectedTextLabel": {
+        "color": "#FFFFFF"
+},
+
+"STANDARD_HEADER_GRADIENT_COLOR_TOP": "#959CA1",
+"STANDARD_HEADER_GRADIENT_COLOR_BOTTOM": "#73787C",
+
+"DASHBOARD_BACKDROP_COLOR": "#3d3d45",
+"TransactionRowSelected": {
+	"backgroundColor": "#E5E6E8"
+},
+
+"TransactionRowSelectedMessageCenter": {
+	"backgroundGradient":{
+        "colors":["#E5E6E8", "#E5E6E8"]
+     }
+},
+
+"DETAILS_URL_TEXT_COLOR": "#959CA1",
+
+"ChartStyles" : {
+	"ChartGradients" : [
+	 {
+        "id" : "dailyBalance-start",
+        "type" : "linear",
+        "angle": 0,
+        "stops" : {
+            "0" : {
+                "color": "#59954F"
+            },
+            "100" : {
+                "color": "#59954F"
+            }
+        }
+    },
+	{
+        "id" : "dailyBalance-end",
+        "type" : "linear",
+        "angle" : 0,
+        "stops" : {
+            "0" : {
+                "color" : "#73C267"
+            },
+            "100" : {
+                "color" : "#73C267"
+            }
+        }
+    },
+    {
+        "id" : "cashFlow-1",
+        "angle": 0,
+        "type": "linear",
+        "stops" : {
+            "1": {
+				"color": "#59954F"
+            },
+            "5": {
+				"color": "#59954F"
+            },
+            "100": {
+				"color": "#59954F"
+            }
+        }
+    },
+   	{
+        "id": "cashFlow-2",
+        "type": "linear",
+        "angle": 0,
+        "stops": {
+            "3": {
+                "color": "#73C267"
+            },
+            "5": {
+                "color" : "#73C267"
+            },
+            "100": {
+                "color": "#73C267"
+            }
+        }
+    },
+    {
+        "id": "creditBalance-1",
+        "angle": 0,
+        "type": "radial",
+        "stops" : {
+            "1": {
+                "color" : "#59954F"
+            },
+            "100" : {
+                "color" : "#59954F"
+            }
+        }
+    },
+    {
+        "id": "creditBalance-2",
+        "angle": 0,
+        "type": "radial",
+        "stops" : {
+            "1" : {
+				"color": "#73C267"
+            },
+            "100" : {
+				"color": "#73C267"
+            }
+        }
+    }
+	],
+	"CreditBalanceChart" : {
+		"textColors" : [
+			"#59954F",
+			"#73C267"
+		]
+	},
+	"CashFlowChart" : {
+		"strokeColors" : [
+			"#59954F", 
+			"#73C267"
+		],
+		"shadowColor" : ["#969696", "#969696"]
+	},
+	"DailyBalanceChart" : {
+		"chartStyle" : {
+           	"stroke": "#73C267",
+           	"fill": "#59954F"
+		}
+	}
+},
+"MultiChoiceAnswerField" : {
+    "answerTableRow": {
+        "selectedBackgroundColor":"#E5E6E8"
+    }
+},
+"FilterTypeSelectorDetailRow" : {
+	"selectedBackgroundColor":"#E5E6E8"
+},
+
+"StandardDrawerFormField": {
+  "selectedBackgroundColor": "#E5E6E8"
+},
+
+"NOTIFICATIONS_CHICKLET": {
+    "backgroundColor": "#959CA1"
+},
+
+"ToggleButtonGradientSelected" : {
+  "backgroundGradient": {
+        "colors": [ 
+          { "color": "#959CA1", "offset": 0.0}, 
+          { "color": "#73787C", "offset": 1 }
+        ]
+    }
+},
+
+"StandardToggleButton": {
+  "toggleSelectedGradient": {
+        "colors": [ 
+          { "color": "#959CA1", "offset": 0.0}, 
+          { "color": "#73787C", "offset": 1 }
+        ]
+    }
+},
+
+"MessageCenterReadIndicator": {
+	"backgroundColor": "#959CA1"
+}
+
+}
